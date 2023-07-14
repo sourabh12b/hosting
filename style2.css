@@ -413,11 +413,6 @@ hr{
 	background-size: contain;
 }
 
-#five{
-	background-image: url(images2/cpp.jpg);
-	background-size: cover;
-}
-
 .images{
 	width: 99%;
 	display: flex;
