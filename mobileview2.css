@@ -1,0 +1,379 @@
+@media(max-width:450px){
+
+
+	/*header part starts*/
+
+	header{
+		height: auto;
+	}
+
+	.ab{
+		flex-direction: column;
+	}
+
+	#check:checked~ul{
+    display: block;
+    height: 290px;
+    text-align: center;
+    line-height: 1.0;
+    }
+
+	hr{
+		display: none;
+	}
+
+	nav{
+		background-color: transparent;
+		box-shadow: none;
+		line-height: 0.5;
+	}
+
+.bar{
+display: block;
+float: right;
+margin-right: 30px;
+font-size: 35px;
+color: #002b80;
+margin-top: 20px;
+}
+
+.nav{
+	display: none;
+	
+	text-align: center;
+    width: 100%;
+    height: 0vh;
+    color: white;
+    line-height: 50px;
+  
+    margin-left: -30%;
+
+}
+
+.nav-item{
+display: block;
+padding: 5px 0px -10px 0px;
+margin-right: -10%;
+}
+
+
+.logo{
+	margin-left: 5px;
+	margin-top: -10px;
+}
+
+.ab .right-head button{
+	width: 120px;
+	height: 40px;
+	box-shadow: 0 0 2px 2px solid black;
+}
+
+
+
+.right-head q{
+    margin-top: 70px;
+    margin-left: -30px;
+    margin-right: -55px;
+    text-align: center;
+
+    
+    }
+
+    .ab .right-head{
+        width: 80%;
+        margin-left: 30px;
+        text-align: center;
+    }
+
+     .ab .left-head{
+        width: 100%;
+        margin: 50px -5px;
+    }
+
+    .left-head img{
+    	width: 90%;
+    	margin-left: 20px;
+    	height: auto;
+    }
+   html,body{
+   	overflow-x: hidden;
+   }
+
+
+ .left-head ul li{
+ 	display: inline-block;
+ 	margin: 50px -255px 0 87px;
+ 	position: relative;
+ 	left: -165px;
+
+ }
+
+ nav button{
+	width: 160px;
+	height: 31px;
+	font-size: 20px;
+	background-color: #002b80;
+	color: white;
+	float: right;
+	margin-top: -6px;
+	margin-right: 0px;
+
+}
+
+/*header part starts*/
+
+/*Client part starts*/
+
+.abc{
+	flex-direction: column;
+}
+
+/*Client part starts*/
+
+
+/*----My skills----*/
+
+.skill{
+	flex-direction: column;
+    font-size: 20px;
+    line-height: 2.0;
+
+
+}
+
+
+
+.skill img{
+	width: 30%;
+	margin: auto 124px;
+}
+
+.skill h3{
+	margin-top: -20px;
+	text-align: center;
+}
+
+.skill p{
+	margin-top: 2%;
+	margin-left: 91px;
+	text-align: center;
+}
+
+.skill #para1{
+	margin-top: -5%;
+}
+
+
+
+/*----My skills----*/
+
+.myskill2{
+	flex-direction: column;
+    margin-left: 90px;
+}
+
+.myskill2 .left-skill{
+	align-items: center;
+	margin-left: -90px;
+	text-align: center;
+}
+.right-skill{
+	width: 100%;
+	margin-left: -40px;
+	margin-top: 20px;
+	flex-direction: column;
+
+}
+
+.right-skill ul{
+
+	display: block;
+	margin:  auto 70px;
+	align-items: center;
+
+
+}
+
+.right-skill ul li{
+	width: 40px;
+   
+}
+
+
+
+/*----My skills----*/
+
+
+/*---Business figures---*/
+
+.figures{
+	flex-direction: column;
+}
+
+
+/*---Business figures---*/
+
+
+/*----About me-----*/
+
+.aboutme{
+	flex-direction: column;
+	width: 100%;
+}
+
+.right1{
+	margin-left: -102px;
+	width: 45%;
+    
+}
+.right2 p{
+	text-align: center;
+	margin-left: 20px;
+}
+
+.right2{
+	text-align: center;
+	margin-left: 60px;
+	width: 70%;
+}
+
+.right2 button{
+
+width: 100px;
+height: 40px;
+}
+
+/*----About me-----*/
+
+/*-----Slider-----*/
+
+.slide{
+width: 90%;
+}
+
+.slide-content{
+	flex-direction: column;
+	width: ;
+
+}
+
+
+
+.sliding .left-side{
+width: 90%;
+margin: auto;
+
+}
+
+.sliding .two{
+width: 92%;
+margin: auto;
+
+}
+
+/*-----Slider-----*/
+
+
+/*images part*/
+
+.images, .images1{
+display: block;
+
+
+}
+.images .myimage{
+width: 97%;
+  height: 211px;
+  background-size: contain;
+  background: no-repeat;
+
+}
+
+
+
+.images1 .myimage{
+width: 97%;
+background-size: contain;
+height: 224px;
+
+
+}
+
+.images1 .myimage img{
+	width: 120px;
+	
+}
+
+.image .imagedetail{
+margin-top: -150px;
+}
+
+/*image details ends*/
+
+
+/*-----faq-----*/
+
+
+.faqs{
+	text-align: center;
+}
+
+.faqs .questions{
+	width: 70%;
+}
+
+.faqs .answer{
+	font-size: 15px;
+	width: 70%;
+	height: auto;
+}
+
+/*-----faq-----*/
+
+/*freelance---*/
+
+.bg1{
+width: 100%;
+height: 200px;
+}
+
+.bg1 .free{
+margin-top: -20px;
+}
+
+.bg1 .free button{
+width: 50%;
+}
+
+/*----Footer---*/
+
+footer{
+	flex-direction: column;
+}
+
+.foot .ab {
+	text-align: center;
+	margin: auto -26px;
+}
+
+.foot .ab .copy{
+
+	margin-left: -61px;
+
+}
+
+.doot{
+	width: 80%;
+	margin: auto;
+	height: auto;
+}
+
+.doot ul{
+	margin: auto 280px;
+}
+
+.doot #button{
+  margin-top: 20px;
+}
+
+}
